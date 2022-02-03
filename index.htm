@@ -15,14 +15,17 @@
 
     <title>Mi Portafolio</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;600;900&display=swap"
       rel="stylesheet"
-    />
+    /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- navar -->
@@ -33,7 +36,6 @@
         bg-light
         shadow
         p-3
-        mb-5
         bg-body
         rounded
       "
@@ -75,7 +77,7 @@
 
     <!-- diseño -->
     <section>
-      <img src="imagenes/html1.jpg" id="html1" />
+      <img src="imagenes/html1.png" id="html1" />
       <img src="imagenes/html2.png" id="html2" />
       <img src="imagenes/html3.png" id="html3" />
       <img src="imagenes/hmtl4.png" id="html4" />
@@ -128,11 +130,11 @@
         <div class="col-md-12 pb-4">
           <h4 class="text-center pb-5 pt-4" id="estudios">Mis estudios</h4>
         </div>
-        <div class="col-md-6 pb-5 pt3">
+        <div class=" col-md-3 pb-5 pt3">
           <div
-            class="header-content-programacion shadow p-3 card"
+            class="header-content-programacion shadow p-3 card " id="header-content-programacion"
           >
-            <img src="imagenes/senahtml.png" class="card-img-top" alt="..." />
+            <img src="imagenes/senahtml.png" id="senahtml" class="card-img-top" alt="..." />
             <!-- <div class="card-body">
               <p class="card-text">
                 Some quick example text to build on the card title and make up
@@ -141,7 +143,7 @@
             </div> -->
             <div class="d-grid gap-2">
               <a
-                class="btn btn-primary"
+                class="btn btn-link"
                 target="brank"
                 href="https://drive.google.com/file/d/11WeBYd1luAry1-fSdhRZYcZgvJedJ3xU/view?usp=sharing"
                 type="button"
@@ -150,9 +152,9 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 pb-5 pt3">
-          <div class="shadow p-3 scard">
-            <img src="imagenes/senahtml2.png" class="card-img-top" alt="..." />
+        <div class="col-md-3 pb-5 pt3">
+          <div class="header-content-programacion shadow p-3 card" id="header-content-programacion">
+            <img src="imagenes/senahtml2.png" id="senahtml2" class="card-img-top" alt="..." />
             <!-- <div class="card-body">
               <p class="card-text">
                 Some quick example text to build on the card title and make up
@@ -161,7 +163,7 @@
             </div> -->
             <div class="d-grid gap-2">
               <a
-                class="btn btn-primary"
+                class="btn btn-link"
                 target="brank"
                 href="https://drive.google.com/file/d/1mlqEUVS8hfA1uTe8V5501yYMf214G8z-/view?usp=sharing"
                 type="button"
@@ -170,6 +172,75 @@
             </div>
           </div>
         </div>
+        <div class="col-md-3 pb-5 pt3">
+          <div class="header-content-programacion shadow p-3 card" id="header-content-programacion">
+            <img src="imagenes/aplicacion.png" id="senahtml2" class="card-img-top" alt="..." />
+            <!-- <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div> -->
+            <div class="d-grid gap-2">
+              <a
+                class="btn btn-link"
+                target="_brank"
+                href="https://drive.google.com/file/d/1zQA4J4rc9gghJIyW_Diq16WNZXyeqd39/view?usp=sharing"
+                type="button"
+                >Aplicaciones web</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 pb-5 pt3">
+          <div class="header-content-programacion shadow p-3 card" id="header-content-programacion">
+            <img src="imagenes/habilidades.png" id="senahtml2" class="card-img-top" alt="..." />
+            <!-- <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div> -->
+            <div class="d-grid gap-2">
+              <a
+                class="btn btn-link"
+                target="_brank"
+                href="https://drive.google.com/file/d/1qzdYwAxKYriAu0g6gLUuWD4gli1Q-9zC/view?usp=sharing"
+                type="button"
+                >Habilidades
+                Programacion</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-md-3 pb-5 pt-3">
+          
+            <div class="d-grid gap-2">
+              <a
+                class="btn btn-link"
+                target="brank"
+                href="https://drive.google.com/file/d/1zQA4J4rc9gghJIyW_Diq16WNZXyeqd39/view?usp=sharing"
+                type="button"
+                >Aplicacion WEB</a
+              >
+            </div>
+          </div>
+        </div> -->
+        <!-- <div class="col-md-3 pb-5 pt3">
+          <div class="header-content-programacion shadow p-3 scard" id="header-content-programacion">
+            <img src="imagenes/habilidades.png" id= "habilidades"class="card-img-top" alt="..." />
+           
+            <div class="d-grid gap-2">
+              <a
+                class="btn btn-link"
+                target="brank"
+                href="https://drive.google.com/file/d/1qzdYwAxKYriAu0g6gLUuWD4gli1Q-9zC/view?usp=sharing"
+                type="button"
+                >Habilidades</a
+              >
+            </div>
+          </div>
+        </div> -->
       </div>
     </div>
 
@@ -187,7 +258,7 @@
         <div class="col-md-6">
           <div class="header-content-righ">
             <h1>Diseño</h1>
-            <p class="mt-5">diseño de halloween</p>
+            <p class="mt-5">diseño de halloween con JavaScript y CSS</p>
             <a
               type="button"
               class="btn btn-primary"
@@ -211,7 +282,7 @@
         <div class="col-md-6">
           <div class="header-content-proyecto">
             <h1>Proyecto Sena</h1>
-            <p class="mt-5">Sispow</p>
+            <p class="mt-5">Sispow Aplicacion de ventas y ecommerce</p>
             <a
               type="button"
               class="btn btn-primary"
@@ -228,13 +299,13 @@
       <div class="row">
         <div class="col-md-6">
           <div class="header-content-misiontic shadow p-3 mb-5">
-            <img src="imagenes/python1.jpg" style="width: 100%" alt="" />
+            <img src="imagenes/python.png" style="width: 100%" alt="" />
           </div>
         </div>
         <div class="col-md-6">
           <div class="header-content-python">
             <h1>Algoritmo Python</h1>
-            <p class="mt-5">Ciclo 1 MisionTic</p>
+            <p class="mt-5">Ciclo 1 MisionTic Habilidades en algoritmo orientado a objetos</p>
             <a
               type="button"
               class="btn btn-primary"
@@ -251,13 +322,13 @@
       <div class="row">
         <div class="col-md-6">
           <div class="header-content-java shadow p-3 mb-5">
-            <img src="imagenes/java.jpg" style="width: 100%" alt="" />
+            <img src="imagenes/java.png" style="width: 100%" alt="" />
           </div>
         </div>
         <div class="col-md-6">
           <div class="header-content-javamisiontic">
             <h1>Algoritmo Java</h1>
-            <p class="mt-5">Ciclo 2 MisionTic</p>
+            <p class="mt-5">Ciclo 2 MisionTic Habilidades en interface graficas y aplicaciones de juegos</p>
             <a
               type="button"
               class="btn btn-primary"
@@ -419,6 +490,9 @@
         },
         scale: 1.5,
       });
+     
+      
+     
     </script>
     <script>
       window.sr = ScrollReveal();
